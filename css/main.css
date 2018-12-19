@@ -135,7 +135,7 @@ h4 {
     color: blue;
 }
 .navbar li a, .navbar .navbar-brand {
-    color: lightskyblue !important;
+    color: white !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #3d2b99 !important;
