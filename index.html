@@ -20,7 +20,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -161,27 +161,34 @@
 
             <p><span class="glyphicon glyphicon-envelope"></span>
                 <a href="mailto:jsuarez@suministrosjs.com?Subject=Consulta SuministrosJS" target="_top">jsuarez@suministrosjs.com</a>
-                </p>
+            </p>
+
+
         </div>
-        <div class="col-sm-7 slideanim">
-            <div class="row">
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+        <form id="contact-form" method="post" action="contact.php">
+
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
                 </div>
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Mensaje"
+                          rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Enviar</button>
+                    </div>
                 </div>
             </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Mensaje" rows="5"></textarea><br>
-            <div class="row">
-                <div class="col-sm-12 form-group">
-                    <button class="btn btn-default pull-right" type="submit">Enviar</button>
-                </div>
-            </div>
-        </div>
+        </form>
+
     </div>
 </div>
-
 
 <!-- Container (Services Section) -->
 <div id="asociated" class="container-fluid text-center">
@@ -190,17 +197,17 @@
     <br>
     <div class="row slideanim">
 
-    <div class="col"><a href="https://WWW.REISOPACK.COM" target=”_blank”><img src="img/cover_logo.png">
-    </a></div>
+        <div class="col"><a href="https://WWW.REISOPACK.COM" target=”_blank”><img src="img/cover_logo.png">
+        </a></div>
 
-    <div class="col"><a href="https://giro.es/" target=”_blank”><img src="img/giroCompanyProfile.jpg"></a></div>
+        <div class="col"><a href="https://giro.es/" target=”_blank”><img src="img/giroCompanyProfile.jpg"></a></div>
 
-    <div class="col " style="margin-right: auto; margin: auto"><a href="http://www.embalpacklevante.com/es/"
-                                                                  target=”_blank”><img
-            src="img/EMBALPACK%20-%20copia.jpg"></a></div>
-    <div class="col "><a href="http://www.actives.net/" target=”_blank”><img src="img/actives_logo.png"></a>
+        <div class="col " style="margin-right: auto; margin: auto"><a href="http://www.embalpacklevante.com/es/"
+                                                                      target=”_blank”><img
+                src="img/EMBALPACK%20-%20copia.jpg"></a></div>
+        <div class="col "><a href="http://www.actives.net/" target=”_blank”><img src="img/actives_logo.png"></a>
+        </div>
     </div>
-</div>
 
 </div>
 
